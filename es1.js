@@ -2,13 +2,13 @@
 //ragione --> differenza tra un elemento ed il suo precedente
 
 function sum(n) {
-	if (n == 1) {
+	if (n === 1) {
 		//situazione base
 		return n;
 	} else {
 		return n + sum(n - 1); //vado a chiamare la funzione in questo modo
-        //facendo così il programma si bloccherà nella sua stessa funzione, fino a quando non verrà soddisfatta
-        //la condiizone base
+		//facendo così il programma si bloccherà nella sua stessa funzione, fino a quando non verrà soddisfatta
+		//la condiizone base
 	}
 }
 
