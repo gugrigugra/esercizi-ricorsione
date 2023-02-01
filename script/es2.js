@@ -11,4 +11,9 @@ function sum(array, n) {
 	}
 }
 
+let input = document.querySelector(".input")
+let output = document.querySelector("#output")
+input.innerHTML = `array --> ${array}`
+output.innerHTML = `l'output è di ${sum(array,n)}`
+
 console.log(sum(array, n)); //55

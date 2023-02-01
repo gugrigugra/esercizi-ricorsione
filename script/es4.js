@@ -13,4 +13,9 @@ function max(array, n) {
 	}
 }
 
+let input = document.querySelector(".input")
+let output = document.querySelector("#output")
+input.innerHTML = `array --> ${array}`
+output.innerHTML = `l'output è di ${max(array,n)}`
+
 console.log(max(array, n - 1));

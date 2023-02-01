@@ -13,4 +13,9 @@ function min(array, n) {
 	}
 }
 
+let input = document.querySelector(".input")
+let output = document.querySelector("#output")
+input.innerHTML = `array --> ${array}`
+output.innerHTML = `l'output è di ${min(array,n)}`
+
 console.log(min(array, n - 1));
