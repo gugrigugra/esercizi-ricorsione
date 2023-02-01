@@ -29,4 +29,3 @@ if (parolaDaComporre.toLowerCase === parola.toLowerCase) {
 } else {
 	output.innerHTML = `la parola non è palindroma`;
 }
-

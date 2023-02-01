@@ -1,6 +1,6 @@
 // Sommare i numeri da 1 a 100
 //ragione --> differenza tra un elemento ed il suo precedente
-let n = 100
+let n = 100;
 
 function sum(n) {
 	if (n === 1) {
@@ -13,9 +13,9 @@ function sum(n) {
 	}
 }
 
-let input = document.querySelector(".input")
-let output = document.querySelector("#output")
-input.innerHTML = `x --> 100`
-output.innerHTML = `l'output è di ${sum(n)}`
+let input = document.querySelector(".input");
+let output = document.querySelector("#output");
+input.innerHTML = `x --> 100`;
+output.innerHTML = `l'output è di ${sum(n)}`;
 
 console.log(sum(n)); // 5050
