@@ -10,4 +10,7 @@ function convert(num) {
 	}
 }
 
-console.log(convert(num));
+let input = document.querySelector(".input");
+let output = document.querySelector("#output");
+input.innerHTML = `numero da convertire --> 5`;
+output.innerHTML = `l'output è di ${convert(num)}`;
